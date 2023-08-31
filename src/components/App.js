@@ -8,6 +8,7 @@ const App = () => (
   <div className="App">
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
+      <h2>CircleCI</h2>
       <Outlet />
     </header>
   </div>
