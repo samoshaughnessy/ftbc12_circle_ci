@@ -5,7 +5,7 @@ const SightingPreview = (props) => {
   console.log(props.data);
   const categoryNames = props.data.categories.map((category) => category.name);
   return (
-    <Card bg="dark">
+    <Card>
       <Card.Body>
         <Card.Title>
           {`${new Date(props.data.date).toDateString()} 

@@ -99,7 +99,7 @@ const Sighting = () => {
   return (
     <div>
       <Link to="/">Home</Link>
-      <Card bg="dark">
+      <Card>
         <Card.Body>{sightingDetails}</Card.Body>
       </Card>
       <br />
